@@ -1,0 +1,23 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": false,
+        "importHelpers": true,
+        "lib": [
+            "es2018",
+            "dom",
+            "esnext.asynciterable"
+        ],
+        "module": "es2020",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2015"
+    },
+    "files": [
+        "src/main.ts"
+    ]
+}
